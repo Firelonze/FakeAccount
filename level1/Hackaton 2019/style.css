@@ -30,6 +30,11 @@ header {
   font-size: 21px;
 }
 
+.friendstext {
+  margin-left: 31em;
+  font-size: 21px;
+}
+
 .column {
   float: left;
   width: 30%;
