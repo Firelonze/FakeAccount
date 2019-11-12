@@ -57,7 +57,7 @@
     <div class="container">
     <form class="???" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <!-- Tips om wachtwoorden te raden: de naam van de gebruiker de namen van iemands broers en zussen. de naam van iemands huidige of favoriete (huis)dier. iemand zijn/haar geboorte datum. het adres kan voor komen als wachtwoord van een gebruiker. meestal begint het wachtwoord met een hoofdletter, let goed op wat de gebruiker heeft gezegd/gepost -->
-    <p>username:  jasmine, henk, annemarie</p>  
+    <p>username:  jasmine, annemarie, henk </p>  
     <input type="text" name="username" id="username" autocomplete="off"><?php echo $nameError ?><br>
     <p>password:</p>    
     <input type="password" name="password" id="password" autocomplete="off"><?php echo $passError ?><br>
