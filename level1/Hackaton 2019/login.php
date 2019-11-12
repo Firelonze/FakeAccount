@@ -27,7 +27,7 @@
         $username = "Welcome " . test_input($_POST["username"]);
         $username = "";
         $nameError = $passError = "";
-        echo "sup biatch";
+        header("Location: index.html");
    
       }else {
         $nameError = "Dit is een foute naam";
@@ -56,7 +56,8 @@
   <body>
     <div class="container">
     <form class="???" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-    <p>username:</p>  
+    <!-- Tips om wachtwoorden te raden: de naam van de gebruiker de namen van iemands broers en zussen. de naam van iemands huidige of favoriete (huis)dier. iemand zijn/haar geboorte datum. het adres kan voor komen als wachtwoord van een gebruiker. meestal begint het wachtwoord met een hoofdletter, let goed op wat de gebruiker heeft gezegd/gepost -->
+    <p>username:  jasmine, henk, annemarie</p>  
     <input type="text" name="username" id="username" autocomplete="off"><?php echo $nameError ?><br>
     <p>password:</p>    
     <input type="password" name="password" id="password" autocomplete="off"><?php echo $passError ?><br>
@@ -68,8 +69,26 @@
               <a href="friends.html"><i class="fa fa-fw fa-user"></i> </a>
               <a href="login.php"><i class="fa fa-fw fa-envelope"></i></a>
     </div>
-  </body>
+    <br>
+    <input type="submit" name="submit" value="submit">
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <a href="#" data-toggle="popover" title="hint" data-content="Hier komt de hint">hint nodig?</a>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+</body>
 </html>
-<?php
-echo $username;
-?>
