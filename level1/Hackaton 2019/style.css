@@ -35,6 +35,12 @@ header {
   font-size: 21px;
 }
 
+.successtext {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 1em;
+}
+
 .column {
   float: left;
   width: 30%;
