@@ -26,3 +26,9 @@ button:hover{
 h4{
     text-align: center;
 }
+.left{
+    left: 75%;
+}
+.right{
+    left: 15%;
+}
