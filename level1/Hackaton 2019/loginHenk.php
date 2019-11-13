@@ -58,12 +58,12 @@
 <body>
 
 <div class="container">
-  <a href="#" data-toggle="popover" title="hint" data-content="Hier komt de hint">hint nodig?</a>
+<a href="#" data-toggle="popover" title="hint" data-content="waar hou je van?">hint nodig?</a>
 </div>
 
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+$('[data-toggle="popover"]').popover(); 
 });
 </script>
 </body>

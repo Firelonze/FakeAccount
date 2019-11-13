@@ -59,13 +59,14 @@
 <body>
 
 <div class="container">
-  <a href="#" data-toggle="popover" title="hint" data-content="Hier komt de hint">hint nodig?</a>
+<a href="#" data-toggle="popover" title="hint" data-content="waar heb je een tatoeage van?">hint nodig?</a>
 </div>
 
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+$('[data-toggle="popover"]').popover(); 
 });
+</script>
 </script>
 </body>
 </html>
