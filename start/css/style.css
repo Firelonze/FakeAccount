@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body{
+    background: black;
+    color: whitesmoke;
+}
+button{
+    margin: 20px;
+    padding: 15px;
+    background-color: teal;
+    color: white;
+    border: 3px;
+    font-size: 12px ;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: cadetblue;
+}
+h4{
+    text-align: center;
+}
+.left{
+    left: 75%;
+}
+.right{
+    left: 15%;
+}
